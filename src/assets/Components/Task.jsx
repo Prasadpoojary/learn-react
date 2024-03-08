@@ -2,17 +2,18 @@ import React, { useState } from "react";
 
 const Task=()=>
 {
-    const [count, setCount]=useState(0);
+   
+    const [input, setInput]=useState("");
 
-    const handleClick=()=>
+    const handleChange=(event)=>
     {
-        setCount(count+1);
+        setInput(event.target.value);
     }
 
    //  React.Fragment
     return <>
-        <h1>Hello : {count}</h1>
-        <button onClick={handleClick}>Update</button>
+        <input type="text" onChange={handleChange} />
+        <h1>{input}</h1>
         </>
 }
 
