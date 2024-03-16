@@ -1,4 +1,19 @@
 p 
 {
-    font-size: 13px;
+    font-size: 30px;
+}
+
+button 
+{
+    margin:40px;
+    width:200px;
+    height:70px;
+    line-height: 70px;
+    font-size: 30px;
+    background:#a3ea9a;
+    color:#000;
+    border:none;
+    outline: none;
+    border-radius: 25px;
+    cursor: pointer;
 }

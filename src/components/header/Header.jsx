@@ -1,21 +1,14 @@
 import React from 'react'
 
 import './headerStyle.css'
+import Navigation from './navigation/Navigation'
 
 const Header = () => {
   return (
 
      <header>
         <h1>My heading </h1>
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Login</a></li>
-                <li><a href="">Registration</a></li>
-                <li><a href="">Upload</a></li>
-                <li><a href="">Contact us</a></li>
-            </ul>
-        </nav>
+        <Navigation/>
      </header>
  
   )

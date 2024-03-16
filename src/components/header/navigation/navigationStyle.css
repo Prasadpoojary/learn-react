@@ -1,0 +1,14 @@
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    width: 500px;
+
+    li a 
+    {
+        color:aquamarine;
+    
+    }
+   
+}
