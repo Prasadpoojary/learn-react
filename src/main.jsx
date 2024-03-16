@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Task from './Components/Task'
+import { App } from './components/App'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <Task />
+    <App />
   </React.StrictMode>,
 )
