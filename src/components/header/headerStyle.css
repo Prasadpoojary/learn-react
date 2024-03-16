@@ -1,0 +1,31 @@
+header 
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100vw;
+    height: 100px;
+    margin-bottom: 200px;
+
+    h1 
+    {
+        color:#13c113;
+    }
+
+    nav ul
+    {
+        list-style: none;
+        display: flex;
+        justify-content:space-around;
+        width: 500px;
+
+        li a 
+        {
+            color:aquamarine;
+        
+        }
+       
+    }
+
+
+}
