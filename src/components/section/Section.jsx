@@ -1,12 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './sectionStyle.css'
 const Section = () => {
 
-    let name="Roopa";
+
+  // useState(default_value) which returns a list [current_value, setValue_function]
+    
+    const [name,setName]=useState("Roopa")
 
     const handleClick=()=>
     {
-       alert("Button Clicked");
+      //  setName("Prasad")
+      setName((prev)=> { return `${prev} Prasad`})
     }
 
   return (
