@@ -17,3 +17,9 @@ button
     border-radius: 25px;
     cursor: pointer;
 }
+
+input 
+{
+    padding:10px;
+    margin-left: 50px;
+}
